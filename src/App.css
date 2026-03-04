@@ -612,9 +612,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 		display:flex;
 		flex-direction: column;
 		gap: 12px;
+		align-items: center;
 	}
 	.new-email-bx input{
 		width: 100%;
+		padding: 14px 18px;
 	}
 	.new-email-bx button{
 		width: 100%;
