@@ -617,6 +617,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 	.new-email-bx {
 		height: auto !important;
+		overflow: visible !important;
 	}
 	
 	.new-email-bx input{
