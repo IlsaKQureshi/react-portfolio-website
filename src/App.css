@@ -606,6 +606,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   border-radius: 18px;
 }
+
+@media (max-width: 700px){
+	.new-email-bx {
+		display:flex;
+		flex-direction: column;
+		gap: 12px;
+	}
+	.new-email-bx input{
+		width: 100%;
+	}
+	.new-email-box button{
+		width: 100%;
+		position: static;
+		transform: none;
+	}
+}
 .footer img {
   width: 26%;
 }
