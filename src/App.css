@@ -628,6 +628,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 		width: 100% !important;
 		position: static !important;
 		transform: none  !important;
+		margin-top: 10px !important;
 	}
 }
 .footer img {
