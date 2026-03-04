@@ -607,28 +607,40 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 18px;
 }
 
-@media (max-width: 700px){
-	.new-email-bx {
-		display: flex !important;
-		flex-direction: column !important;
-		gap: 12px !important;
-		align-items: center !important;
-		height: auto !important;
-		overflow: visible !important;
-		margin-bottom: 10px;
-	}
-	
-	.new-email-bx input{
-		width: 100% !important;
-		padding: 14px 18px !important;
-		margin-bottom: 10px;
-	}
-	.new-email-bx button{
-		width: 100% !important;
-		position: static !important;
-		transform: none  !important;
-		margin-top: 10px !important;
-	}
+/* ✅ Mobile fixes */
+@media (max-width: 700px) {
+  .newsletter-bx {
+    padding: 32px 18px;      /* was 85px 125px */
+    border-radius: 28px;     /* optional: looks nicer on mobile */
+    margin-top: 0;           /* optional: prevents awkward overlap */
+  }
+
+  .new-email-bx {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;    /* 🔥 important: stretch children full width */
+    padding: 10px;
+    overflow: visible;
+  }
+
+  .new-email-bx input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 16px;      /* add vertical padding */
+    min-height: 48px;        /* consistent height */
+    border-radius: 14px;
+    outline: none;
+  }
+
+  .new-email-bx button {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 16px;      /* less massive than 20px 65px */
+    border-radius: 14px;
+    margin: 0;               /* remove extra offsets */
+  }
 }
 .footer img {
   width: 26%;
