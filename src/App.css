@@ -616,7 +616,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	.new-email-bx input{
 		width: 100%;
 	}
-	.new-email-box button{
+	.new-email-bx button{
 		width: 100%;
 		position: static;
 		transform: none;
