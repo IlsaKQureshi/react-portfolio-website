@@ -613,16 +613,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 		flex-direction: column !important;
 		gap: 12px !important;
 		align-items: center !important;
-	}
-
-	.new-email-bx {
 		height: auto !important;
 		overflow: visible !important;
+		margin-bottom: 10px;
 	}
 	
 	.new-email-bx input{
 		width: 100% !important;
 		padding: 14px 18px !important;
+		margin-bottom: 10px;
 	}
 	.new-email-bx button{
 		width: 100% !important;
